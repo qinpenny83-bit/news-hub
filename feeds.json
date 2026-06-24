@@ -1,0 +1,130 @@
+{
+  "categories": [
+    {
+      "name": "\\u79d1\\u6280",
+      "feeds": [
+        {
+          "name": "36\\u6c2a",
+          "url": "https://36kr.com/feed"
+        },
+        {
+          "name": "\\u864e\\u55c5",
+          "url": "https://www.huxiu.com/rss/0.xml"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/feed/"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://hnrss.org/frontpage"
+        },
+        {
+          "name": "\\u65b0\\u6d6a\\u79d1\\u6280",
+          "url": "https://rss.it.sohu.com/rss/keji.xml"
+        },
+        {
+          "name": "DeepTech",
+          "url": "https://www.deeptechchina.com/feed"
+        }
+      ]
+    },
+    {
+      "name": "\\u8d22\\u7ecf",
+      "feeds": [
+        {
+          "name": "FT\\u4e2d\\u6587\\u7f51",
+          "url": "https://www.ftchinese.com/rss/feed"
+        },
+        {
+          "name": "\\u534e\\u5c14\\u8857\\u89c1\\u95fb",
+          "url": "https://wallstreetcn.com/rss"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reutersagency.com/feed/"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://feeds.bloomberg.com/markets/news.rss"
+        }
+      ]
+    },
+    {
+      "name": "AI/\\u4eba\\u5de5\\u667a\\u80fd",
+      "feeds": [
+        {
+          "name": "OpenAI Blog",
+          "url": "https://openai.com/blog/rss/"
+        },
+        {
+          "name": "DeepSeek",
+          "url": "https://api-docs.deepseek.com/feed.xml"
+        },
+        {
+          "name": "Google AI",
+          "url": "https://blog.google/technology/ai/rss/"
+        },
+        {
+          "name": "Arxiv ML",
+          "url": "http://export.arxiv.org/rss/cs.LG"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/feed/"
+        }
+      ]
+    },
+    {
+      "name": "\\u79d1\\u5b66",
+      "feeds": [
+        {
+          "name": "Nature",
+          "url": "https://www.nature.com/nature.rss"
+        },
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/rss/all.xml"
+        },
+        {
+          "name": "New Scientist",
+          "url": "https://www.newscientist.com/feed/home"
+        },
+        {
+          "name": "\\u679c\\u58f3",
+          "url": "https://www.guokr.com/rss/"
+        }
+      ]
+    },
+    {
+      "name": "\\u4ea7\\u54c1\\u8bbe\\u8ba1",
+      "feeds": [
+        {
+          "name": "\\u4e4c\\u8ba9",
+          "url": "https://www.ui.cn/rss.html"
+        },
+        {
+          "name": "Product Hunt",
+          "url": "https://www.producthunt.com/feed"
+        },
+        {
+          "name": "Dribbble",
+          "url": "https://dribbble.com/stories.rss"
+        }
+      ]
+    },
+    {
+      "name": "\\u6c7d\\u8f66",
+      "feeds": [
+        {
+          "name": "\\u65b0\\u6d6a\\u6c7d\\u8f66",
+          "url": "https://rss.auto.sina.com.cn/auto.xml"
+        },
+        {
+          "name": "\\u60a6\\u516e",
+          "url": "https://www.yescar.com.cn/rss/"
+        }
+      ]
+    }
+  ]
+}
