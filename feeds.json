@@ -8,7 +8,8 @@
         {"name": "新浪科技", "url": "https://rss.it.sohu.com/rss/keji.xml"},
         {"name": "少数派", "url": "https://sspai.com/feed"},
         {"name": "爱范儿", "url": "https://www.ifanr.com/feed"},
-        {"name": "极客公园", "url": "https://www.geekpark.net/rss"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/feed/"},
+        {"name": "The Verge", "url": "https://www.theverge.com/rss/index.xml"}
       ]
     },
     {
@@ -17,7 +18,8 @@
         {"name": "FT中文网", "url": "https://www.ftchinese.com/rss/feed"},
         {"name": "华尔街见闻", "url": "https://wallstreetcn.com/rss"},
         {"name": "财新网", "url": "https://www.caixin.com/rss.xml"},
-        {"name": "第一财经", "url": "https://www.yicai.com/feed/rss.xml"}
+        {"name": "Reuters", "url": "https://www.reutersagency.com/feed/"},
+        {"name": "Bloomberg", "url": "https://feeds.bloomberg.com/markets/news.rss"}
       ]
     },
     {
@@ -25,8 +27,9 @@
       "feeds": [
         {"name": "机器之心", "url": "https://www.jiqizhixin.com/rss"},
         {"name": "量子位", "url": "https://www.qbitai.com/feed"},
+        {"name": "OpenAI Blog", "url": "https://openai.com/blog/rss/"},
         {"name": "DeepSeek", "url": "https://api-docs.deepseek.com/feed.xml"},
-        {"name": "36氪AI", "url": "https://36kr.com/feed/ai"}
+        {"name": "Google AI", "url": "https://blog.google/technology/ai/rss/"}
       ]
     },
     {
@@ -34,14 +37,16 @@
       "feeds": [
         {"name": "果壳", "url": "https://www.guokr.com/rss/"},
         {"name": "环球科学", "url": "https://www.huanqiukexue.com/rss.xml"},
-        {"name": "科学网", "url": "https://news.sciencenet.cn/rss/sb.xml"}
+        {"name": "Nature", "url": "https://www.nature.com/nature.rss"},
+        {"name": "New Scientist", "url": "https://www.newscientist.com/feed/home"}
       ]
     },
     {
       "name": "产品设计",
       "feeds": [
         {"name": "优设", "url": "https://www.uisdc.com/feed"},
-        {"name": "站酷", "url": "https://www.zcool.com.cn/rss.xml"}
+        {"name": "站酷", "url": "https://www.zcool.com.cn/rss.xml"},
+        {"name": "Product Hunt", "url": "https://www.producthunt.com/feed"}
       ]
     },
     {
@@ -56,6 +61,14 @@
       "feeds": [
         {"name": "游民星空", "url": "https://www.gamersky.com/rss/rss.xml"},
         {"name": "触乐", "url": "https://www.chuapp.com/feed"}
+      ]
+    },
+    {
+      "name": "商业",
+      "feeds": [
+        {"name": "极客公园", "url": "https://www.geekpark.net/rss"},
+        {"name": "Hacker News", "url": "https://hnrss.org/frontpage"},
+        {"name": "Arxiv ML", "url": "http://export.arxiv.org/rss/cs.LG"}
       ]
     }
   ]
