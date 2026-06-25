@@ -83,4 +83,7 @@ cron.schedule('0 20 * * *',function(){console.log('定时更新...');fetchAllFee
 
 app.listen(PORT,'0.0.0.0',function(){
   console.log('News Hub running at http://localhost:'+PORT);
+  console.log('首次启动，正在获取新闻...');
+  fetchAllFeeds();
 });
+
