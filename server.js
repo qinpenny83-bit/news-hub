@@ -1,4 +1,4 @@
-const express=require('express');
+﻿const express=require('express');
 const cors=require('cors');
 const RssParser=require('rss-parser');
 const fs=require('fs');
@@ -42,10 +42,10 @@ async function fetchAllFeeds(){
               })
             }
           });
-          console.log('\u2713 '+feed.name+' \u2192 '+result.items.length+' \u7bc7');
+          console.log('✓ '+feed.name+' → '+result.items.length+' 篇');
         }
       }catch(e){
-        console.log('\u2717 '+feed.name+' \u8bfb\u53d6\u5931\u8d25');
+        console.log('✗ '+feed.name+' 读取失败');
       }
     }
   }
@@ -53,7 +53,7 @@ async function fetchAllFeeds(){
   allItems=allItems.slice(0,500);
   var now=new Date();
   saveNews({updated:now.toISOString(),items:allItems});
-  console.log('\u5df2\u66f4\u65b0 '+allItems.length+' \u6761\u65b0\u95fb');
+  console.log('已更新 '+allItems.length+' 条新闻');
   return allItems;
 }
 
@@ -78,10 +78,9 @@ app.get('/api/update',async function(req,res){
   try{await fetchAllFeeds();res.json({ok:true})}catch(e){res.json({ok:false,error:e.message})}
 });
 
-cron.schedule('0 8 * * *',function(){console.log('\u5b9a\u65f6\u66f4\u65b0...');fetchAllFeeds();});
-cron.schedule('0 20 * * *',function(){console.log('\u5b9a\u65f6\u66f4\u65b0...');fetchAllFeeds();});
+cron.schedule('0 8 * * *',function(){console.log('定时更新...');fetchAllFeeds();});
+cron.schedule('0 20 * * *',function(){console.log('定时更新...');fetchAllFeeds();});
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, "0.0.0.0", () => {
-  console.log("服务启动成功");
+app.listen(PORT,'0.0.0.0',function(){
+  console.log('News Hub running at http://localhost:'+PORT);
 });
