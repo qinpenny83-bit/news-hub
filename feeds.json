@@ -3,72 +3,196 @@
     {
       "name": "科技",
       "feeds": [
-        {"name": "36氪", "url": "https://36kr.com/feed"},
-        {"name": "虎嗅", "url": "https://www.huxiu.com/rss/0.xml"},
-        {"name": "新浪科技", "url": "https://rss.it.sohu.com/rss/keji.xml"},
-        {"name": "少数派", "url": "https://sspai.com/feed"},
-        {"name": "爱范儿", "url": "https://www.ifanr.com/feed"},
-        {"name": "TechCrunch", "url": "https://techcrunch.com/feed/"},
-        {"name": "The Verge", "url": "https://www.theverge.com/rss/index.xml"}
+        {
+          "name": "36氪",
+          "url": "https://36kr.com/feed",
+          "lang": "zh"
+        },
+        {
+          "name": "虎嗅",
+          "url": "https://www.huxiu.com/rss/0.xml",
+          "lang": "zh"
+        },
+        {
+          "name": "新浪科技",
+          "url": "https://rss.it.sohu.com/rss/keji.xml",
+          "lang": "zh"
+        },
+        {
+          "name": "少数派",
+          "url": "https://sspai.com/feed",
+          "lang": "zh"
+        },
+        {
+          "name": "爱范儿",
+          "url": "https://www.ifanr.com/feed",
+          "lang": "zh"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/feed/",
+          "lang": "en"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/rss/index.xml",
+          "lang": "en"
+        }
       ]
     },
     {
       "name": "财经",
       "feeds": [
-        {"name": "FT中文网", "url": "https://www.ftchinese.com/rss/feed"},
-        {"name": "华尔街见闻", "url": "https://wallstreetcn.com/rss"},
-        {"name": "财新网", "url": "https://www.caixin.com/rss.xml"},
-        {"name": "Reuters", "url": "https://www.reutersagency.com/feed/"},
-        {"name": "Bloomberg", "url": "https://feeds.bloomberg.com/markets/news.rss"}
+        {
+          "name": "FT中文网",
+          "url": "https://www.ftchinese.com/rss/feed",
+          "lang": "zh"
+        },
+        {
+          "name": "华尔街见闻",
+          "url": "https://wallstreetcn.com/rss",
+          "lang": "zh"
+        },
+        {
+          "name": "财新网",
+          "url": "https://www.caixin.com/rss.xml",
+          "lang": "zh"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reutersagency.com/feed/",
+          "lang": "en"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://feeds.bloomberg.com/markets/news.rss",
+          "lang": "en"
+        }
       ]
     },
     {
       "name": "人工智能",
       "feeds": [
-        {"name": "机器之心", "url": "https://www.jiqizhixin.com/rss"},
-        {"name": "量子位", "url": "https://www.qbitai.com/feed"},
-        {"name": "OpenAI Blog", "url": "https://openai.com/blog/rss/"},
-        {"name": "DeepSeek", "url": "https://api-docs.deepseek.com/feed.xml"},
-        {"name": "Google AI", "url": "https://blog.google/technology/ai/rss/"}
+        {
+          "name": "机器之心",
+          "url": "https://www.jiqizhixin.com/rss",
+          "lang": "zh"
+        },
+        {
+          "name": "量子位",
+          "url": "https://www.qbitai.com/feed",
+          "lang": "zh"
+        },
+        {
+          "name": "OpenAI Blog",
+          "url": "https://openai.com/blog/rss/",
+          "lang": "en"
+        },
+        {
+          "name": "DeepSeek",
+          "url": "https://api-docs.deepseek.com/feed.xml",
+          "lang": "en"
+        },
+        {
+          "name": "Google AI",
+          "url": "https://blog.google/technology/ai/rss/",
+          "lang": "en"
+        }
       ]
     },
     {
       "name": "科学",
       "feeds": [
-        {"name": "果壳", "url": "https://www.guokr.com/rss/"},
-        {"name": "环球科学", "url": "https://www.huanqiukexue.com/rss.xml"},
-        {"name": "Nature", "url": "https://www.nature.com/nature.rss"},
-        {"name": "New Scientist", "url": "https://www.newscientist.com/feed/home"}
+        {
+          "name": "果壳",
+          "url": "https://www.guokr.com/rss/",
+          "lang": "zh"
+        },
+        {
+          "name": "环球科学",
+          "url": "https://www.huanqiukexue.com/rss.xml",
+          "lang": "zh"
+        },
+        {
+          "name": "Nature",
+          "url": "https://www.nature.com/nature.rss",
+          "lang": "en"
+        },
+        {
+          "name": "New Scientist",
+          "url": "https://www.newscientist.com/feed/home",
+          "lang": "en"
+        }
       ]
     },
     {
       "name": "产品设计",
       "feeds": [
-        {"name": "优设", "url": "https://www.uisdc.com/feed"},
-        {"name": "站酷", "url": "https://www.zcool.com.cn/rss.xml"},
-        {"name": "Product Hunt", "url": "https://www.producthunt.com/feed"}
+        {
+          "name": "优设",
+          "url": "https://www.uisdc.com/feed",
+          "lang": "zh"
+        },
+        {
+          "name": "站酷",
+          "url": "https://www.zcool.com.cn/rss.xml",
+          "lang": "zh"
+        },
+        {
+          "name": "Product Hunt",
+          "url": "https://www.producthunt.com/feed",
+          "lang": "en"
+        }
       ]
     },
     {
       "name": "汽车",
       "feeds": [
-        {"name": "汽车之家", "url": "https://www.autohome.com.cn/rss/news.xml"},
-        {"name": "懂车帝", "url": "https://www.dongchedi.com/rss/news.xml"}
+        {
+          "name": "汽车之家",
+          "url": "https://www.autohome.com.cn/rss/news.xml",
+          "lang": "zh"
+        },
+        {
+          "name": "懂车帝",
+          "url": "https://www.dongchedi.com/rss/news.xml",
+          "lang": "zh"
+        }
       ]
     },
     {
       "name": "游戏",
       "feeds": [
-        {"name": "游民星空", "url": "https://www.gamersky.com/rss/rss.xml"},
-        {"name": "触乐", "url": "https://www.chuapp.com/feed"}
+        {
+          "name": "游民星空",
+          "url": "https://www.gamersky.com/rss/rss.xml",
+          "lang": "zh"
+        },
+        {
+          "name": "触乐",
+          "url": "https://www.chuapp.com/feed",
+          "lang": "zh"
+        }
       ]
     },
     {
       "name": "商业",
       "feeds": [
-        {"name": "极客公园", "url": "https://www.geekpark.net/rss"},
-        {"name": "Hacker News", "url": "https://hnrss.org/frontpage"},
-        {"name": "Arxiv ML", "url": "http://export.arxiv.org/rss/cs.LG"}
+        {
+          "name": "极客公园",
+          "url": "https://www.geekpark.net/rss",
+          "lang": "zh"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://hnrss.org/frontpage",
+          "lang": "en"
+        },
+        {
+          "name": "Arxiv ML",
+          "url": "http://export.arxiv.org/rss/cs.LG",
+          "lang": "en"
+        }
       ]
     }
   ]

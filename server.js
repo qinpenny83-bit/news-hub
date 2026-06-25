@@ -37,6 +37,7 @@ async function fetchAllFeeds(){
                 content:item.contentSnippet||item.content||'',
                 pubDate:item.pubDate||item.isoDate||'',
                 source:feed.name,
+              lang:feed.lang||"en",
                 category:cat.name,
                 image:item.enclosure&&item.enclosure.url?item.enclosure.url:null
               })
@@ -62,7 +63,9 @@ app.get('/api/news',function(req,res){
   var cat=req.query.category;
   var src=req.query.source;
   var q=req.query.q;
+  var lang=req.query.lang;
   var items=data.items;
+  if(lang&&lang!=='all')items=items.filter(function(i){return i.lang===lang});
   if(cat)items=items.filter(function(i){return i.category===cat});
   if(src)items=items.filter(function(i){return i.source===src});
   if(q)items=items.filter(function(i){return(i.title+' '+i.content).toLowerCase().includes(q.toLowerCase())});
