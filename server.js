@@ -81,8 +81,7 @@ app.get('/api/update',async function(req,res){
 cron.schedule('0 8 * * *',function(){console.log('\u5b9a\u65f6\u66f4\u65b0...');fetchAllFeeds();});
 cron.schedule('0 20 * * *',function(){console.log('\u5b9a\u65f6\u66f4\u65b0...');fetchAllFeeds();});
 
-app.listen(PORT,'0.0.0.0',function(){
-  console.log('News Hub running at http://localhost:'+PORT);
-  console.log('\u9996\u6b21\u542f\u52a8\uff0c\u6b63\u5728\u83b7\u53d6\u65b0\u95fb...');
-  fetchAllFeeds();
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, "0.0.0.0", () => {
+  console.log("服务启动成功");
 });
